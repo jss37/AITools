@@ -2,29 +2,31 @@
 <html>
 <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
     <title>AQM Banner</title>
     <style>
         body {
-            font-family: Impact, Haettenschweiler, sans-serif;
+            font-family:Impact, Haettenschweiler, sans-serif;
         }
         .banner-text {
-            z-index: 5;
-            top: 0;
-            text-align: center;
+            z-index:5;
+            top:0;
+            text-align:center;
             letter-spacing: .5vw;
-            position: fixed;
+            position:fixed;
             color: #517571; /* Primary color */
             -webkit-text-stroke: .1vw white;
+    
         }
         .banner-text u {
-            -webkit-text-stroke: #517571;
+            -webkit-text-stroke:#517571;
         }
-        @media (max-width: 500px) {
+             @media (max-width: 500px) {
             .banner-text {
-                -webkit-text-stroke: #517571;
+               -webkit-text-stroke:#517571;
             }
-        }
+             }
         .hover-container {
             position: relative;
             display: inline-block;
@@ -34,15 +36,15 @@
         .hover-container img {
             display: block;
         }
-        .tooltip-text {
+        .hover-container .tooltip-text {
             visibility: hidden;
             width: 200px;
             background-color: #517571;
             color: #fff;
             text-align: center;
             border-radius: 1px;
-            border-style: solid;
-            border-color: #fff;
+              border-style: solid;
+              border-color: #fff;
             padding: 10px;
             position: absolute;
             z-index: 25; /* Ensure tooltip-text is on top */
@@ -63,39 +65,27 @@
             left: 50%;
             margin-left: -5px;
             border-top: 15px solid #517571;
-            border-right: 15px solid transparent;
-            border-left: 15px solid transparent;
-            border-bottom: none;
+  border-right: 15px solid transparent;
+  border-left: 15px solid transparent;
+  border-bottom: none;
             z-index: 25; /* Ensure tooltip arrow is on top */
         }
     </style>
 </head>
 <body>
-    <h1 class="banner-text" style="margin-left:30vw;margin-top:0;font-size: 8vw;line-height:10vw;">TELL YOUR STORY<br><span style="text-decoration: underline;text-decoration-color: #517571;font-size:11vw;">WITH DATA</span></h1>
-    <h1 class="banner-text" style="position:fixed;right:26vw;top:17vw;font-size:8vw;">PHOENIX</h1>
-    <h1 class="banner-text" style="margin-left:37vw;margin-top:31vw;font-size:4vw;">Prevalence Profiler</h1>
+   <h1 class="banner-text" style="margin-left:35vw;margin-top:0;font-size: 8vw;line-height:10vw;">TELL YOUR STORY<br><span style="text-decoration: underline;text-decoration-color: #517571;font-size:11vw; ">WITH DATA</span></h1>
+    <h1 class="banner-text" style="position:fixed;right:12.5vw;top:15vw;font-size:9.5vw;letter-spacing:1.5vw; ">PHOENIX</h1>
+    <h1 class="banner-text" style="margin-left:45vw;margin-top:31vw;font-size:4vw;">Prevalence Profiler</h1>
     <img src="AILady.png" style="height:100%;width:100%;">
-    <div class="hover-container" style="position:fixed; right:40vw; bottom:5vw;">
-        <a href="https://phoenix-data.wayne.edu/map/general/bphigh/all%20data/tract/basic?geo=tract26163517500&state=state26&parentgeolevel=state&zoom=6">
-            <img src="ImgExport.png" style="height:5vw; width:18vw;" style="position:fixed;right:33vw;top:30.8vw;height:6.5vw;width:25vw;">
-            <div class="tooltip-text">This new feature helps people use our map tool to create and save customize images</div>
-        </a>
-    </div>
-    <h1 class="banner-text" style="position:fixed;right:12vw;top:42.5vw;font-size:2.5vw;-webkit-text-stroke: .03vw white;letter-spacing: .2vw;"><b>(↓additional resources for investigators & health journalists↓)</b></h1>
-    <img src="SKlogogreen.png" style="position:fixed;right:2vw;top:37vw;height:5vw;width:5vw;">
-    <div class="hover-container" style="position:fixed; right:20vw; bottom:11.8vw;">
-        <a href="https://phoenix-data.wayne.edu/map/general/bphigh/all%20data/tract/basic?geo=tract26163517500&state=state26&parentgeolevel=state&zoom=6">
-            <img src="CopyLink.png" style="height:4vw; width:18vw;">
-            <div class="tooltip-text">This 'deep linking' feature allows you to share what you see without worrying about the settings!</div>
-        </a>
-    </div>
-    <a href="https://gijn.org/stories/fifty-years-of-journalism-and-data-a-brief-history/#:~:text=It%20really%20wasn't%20until,in%20the%20city%20that%20summer." target="_blank">
-        <img src="DataJourn.png" style="top:47.45vw;position:fixed;left:.7vw;height:7vw;width:49.6vw;">
-    </a>
-    <a href="https://www.cdc.gov/eis/field-epi-manual/chapters/analyze-Interpret-Data.html" target="_blank" style="top:51.6vw;position:fixed;left:.7vw;height:3.5vw;width:49.6vw;"></a>
-    <a href="https://blog.apps.npr.org/tools/" target="_blank">
-        <img src="NPRTools.png" style="top:47.5vw;position:fixed;left:49.3vw;height:6.9vw;width:50.1vw;">
-    </a>
-    <a href="https://docs.google.com/document/d/1Jm3jc2RGUTS_pp02eVJ1BuzfyDYGtOgnow02HamHPXE/edit" target="_blank" style="top:51.6vw;position:fixed;left:49.3vw;height:4.45vw;width:50.1vw;"></a>
+     <div class="hover-container" style="position:fixed; right:40vw; bottom:17.5vw;">
+    <a href="https://phoenix-data.wayne.edu/map/general/bphigh/all%20data/tract/basic?geo=tract26163517500&state=state26&parentgeolevel=state&zoom=6" target="_blank"><img src="ImgExport.png" style="position:fixed;right:33vw;top:36.8vw;height:6.5vw;width:25vw;"> <div class="tooltip-text">This new feature helps people use our map tool to create and save customize images</div></a>
+    <h1 class="banner-text"  style="position:fixed;right:12vw;top:42.5vw;font-size:2.5vw;-webkit-text-stroke: .03vw white;letter-spacing: .2vw;"><b>(↓additional resources for investigators & health journalists↓)</b></h1><img src="SKlogogreen.png" style="position:fixed;right:2vw;top:37vw;height:5vw;width:5vw;">
+            <div class="hover-container" style="position:fixed; right:20vw; bottom:17.8vw;">
+    <a href="https://phoenix-data.wayne.edu/map/general/bphigh/all%20data/tract/basic?geo=tract26163517500&state=state26&parentgeolevel=state&zoom=6" target="_blank"><img src="CopyLink.png" style="position:fixed;right:8vw;top:37vw;height:5.2vw;width:25vw;"><div class="tooltip-text">This 'deep linking' feature allows you to share what you see without worrying about the settings! </div></a>
+    <a href="https://gijn.org/stories/fifty-years-of-journalism-and-data-a-brief-history/#:~:text=It%20really%20wasn't%20until,in%20the%20city%20that%20summer." target="_blank"><img src="DataJourn.png" style="top:47.45vw;position:fixed;left:.7vw;height:7vw;width:49.6vw;"></a>
+    <a href="https://www.cdc.gov/eis/field-epi-manual/chapters/analyze-Interpret-Data.html" target="_blank"style="top:51.6vw;position:fixed;left:.7vw;height:3.5vw;width:49.6vw;"></a>
+    <a href="https://blog.apps.npr.org/tools/" target="_blank"><img src="NPRTools.png" style="top:47.5vw;position:fixed;left:49.3vw;height:6.9vw;width:50.1vw;"></a>
+     <a href="https://docs.google.com/document/d/1Jm3jc2RGUTS_pp02eVJ1BuzfyDYGtOgnow02HamHPXE/edit" target="_blank"style="top:51.6vw;position:fixed;left:49.3vw;height:4.45vw;width:50.1vw;"></a>
+   
 </body>
 </html>
